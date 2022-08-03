@@ -9,6 +9,3 @@ module.exports = function check(str, bracketsConfig) {
   }
   return str.length === 0 ? true : false;
 }
-
-console.log(module.exports('()', [['(', ')']])) // -> true
-console.log(module.exports('((()))()', [['(', ')']])) // -> true
